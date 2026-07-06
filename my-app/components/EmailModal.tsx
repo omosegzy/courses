@@ -21,9 +21,15 @@ export function EmailModal({ open, onClose }: EmailModalProps) {
     try {
       /*
         TODO: Same API integration as LeadMagnet.tsx — see that file for instructions.
-        Also trigger the checklist PDF download here.
       */
       await new Promise((r) => setTimeout(r, 700))
+      // Trigger checklist PDF download
+      const link = document.createElement("a")
+      link.href = "/ip-monetization-checklist.pdf"
+      link.download = "IP-Monetization-Checklist.pdf"
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
       setSubmitted(true)
     } finally {
       setLoading(false)

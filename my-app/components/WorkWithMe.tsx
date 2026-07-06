@@ -50,9 +50,10 @@ export function WorkWithMe() {
         </div>
 
         <ScrollReveal delay={0.25}>
-          {/* TODO: Replace href with Calendly URL — e.g. https://calendly.com/victoromoniyi/discovery */}
           <a
-            href="#contact"
+            href="https://calendly.com/victoromoniyi"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex w-full sm:w-auto items-center justify-center px-8 py-4 bg-gold text-navy font-sans font-semibold text-[15px] rounded-full hover:bg-gold/90 transition-colors duration-200"
           >
             Book a Discovery Call

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Victor Omoniyi" }],
   openGraph: {
     title: "Victor Omoniyi (Mister O.) — IP Monetization & Technology Commercialization",
-    description: "$42 Billion in AI and technology assets sit unlicensed every year. I fix that.",
+    description: "Billions in AI and technology assets sit unlicensed every year. I fix that.",
     url: "https://victoromoniyi.com",
     siteName: "Victor Omoniyi",
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Victor Omoniyi (Mister O.)",
-    description: "$42 Billion in AI and technology assets sit unlicensed every year. I fix that.",
+    description: "Billions in AI and technology assets sit unlicensed every year. I fix that.",
   },
   metadataBase: new URL("https://victoromoniyi.com"),
 }

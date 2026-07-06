@@ -31,14 +31,15 @@ export function LeadMagnet() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ firstName, email }),
         })
-
-        TODO: Trigger checklist PDF download on submission.
-        const link = document.createElement("a")
-        link.href = "/ip-monetization-checklist.pdf"   // Replace with actual PDF path or CDN URL
-        link.download = "IP-Monetization-Checklist.pdf"
-        link.click()
       */
       await new Promise((r) => setTimeout(r, 700))
+      // Trigger checklist PDF download
+      const link = document.createElement("a")
+      link.href = "/ip-monetization-checklist.pdf"
+      link.download = "IP-Monetization-Checklist.pdf"
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
       setSubmitted(true)
     } finally {
       setLoading(false)

@@ -59,9 +59,10 @@ export function Navigation() {
                 {link.label}
               </a>
             ))}
-            {/* TODO: Replace href with Calendly URL — e.g. https://calendly.com/victoromoniyi/discovery */}
             <a
-              href="#contact"
+              href="https://calendly.com/victoromoniyi"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2.5 bg-gold text-navy font-sans font-semibold text-[13px] rounded-full hover:bg-gold/90 transition-colors duration-200"
             >
               Book a Discovery Call
@@ -116,9 +117,10 @@ export function Navigation() {
                 {link.label}
               </a>
             ))}
-            {/* TODO: Replace href with Calendly URL */}
             <a
-              href="#contact"
+              href="https://calendly.com/victoromoniyi"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               className="mt-4 px-8 py-3.5 bg-gold text-navy font-sans font-semibold text-[15px] rounded-full"
             >

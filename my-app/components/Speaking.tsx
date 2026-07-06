@@ -60,22 +60,17 @@ export function Speaking() {
 
         <ScrollReveal delay={0.25}>
           <div className="flex flex-col sm:flex-row gap-4">
-            {/*
-              TODO: Replace href with Speaker One-Pager PDF link.
-              Recommend hosting at /public/speaker-one-pager.pdf or a CDN URL.
-            */}
             <a
-              href="#"
+              href="/speaker-one-pager.pdf"
+              download="Victor-Omoniyi-Speaker-One-Pager.pdf"
               className="inline-flex items-center justify-center px-7 py-3.5 border border-gold/40 text-gold font-sans font-semibold text-[14px] rounded-full hover:border-gold hover:bg-gold/5 transition-all duration-200"
             >
               Download Speaker One-Pager
             </a>
-            {/*
-              TODO: Replace href with Calendly URL for speaking bookings
-              e.g. https://calendly.com/victoromoniyi/speaking
-            */}
             <a
-              href="#contact"
+              href="https://calendly.com/victoromoniyi"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-7 py-3.5 bg-gold text-navy font-sans font-semibold text-[14px] rounded-full hover:bg-gold/90 transition-colors duration-200"
             >
               Book Victor for Your Event

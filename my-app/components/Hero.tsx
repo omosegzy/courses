@@ -65,7 +65,7 @@ export function Hero({ onEmailCaptureOpen }: HeroProps) {
                   className="font-serif font-bold text-gold leading-[0.95] block"
                   style={{ fontSize: "clamp(60px, 9vw, 96px)" }}
                 >
-                  $42 Billion.
+                  Billions.
                 </span>
               </motion.div>
 
@@ -98,9 +98,10 @@ export function Hero({ onEmailCaptureOpen }: HeroProps) {
 
             {/* CTAs */}
             <motion.div variants={line} className="flex flex-col sm:flex-row gap-4">
-              {/* TODO: Replace href with Calendly URL — e.g. https://calendly.com/victoromoniyi/discovery */}
               <a
-                href="#contact"
+                href="https://calendly.com/victoromoniyi"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 bg-gold text-navy font-sans font-semibold text-[14px] rounded-full hover:bg-gold/90 transition-colors duration-200"
               >
                 Book a Discovery Call

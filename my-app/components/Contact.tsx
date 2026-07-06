@@ -77,7 +77,7 @@ export function Contact() {
                     </a>
                   </p>
                   <p className="text-dim/60 text-[14px] pt-1">
-                    Based in Saudi Arabia · Available globally
+                    Available globally
                   </p>
                 </div>
               </ScrollReveal>
@@ -151,9 +151,10 @@ export function Contact() {
               ))}
             </div>
 
-            {/* TODO: Replace href with Calendly URL */}
             <a
-              href="#contact"
+              href="https://calendly.com/victoromoniyi"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2.5 bg-gold text-navy font-sans font-semibold text-[13px] rounded-full hover:bg-gold/90 transition-colors order-1 md:order-3"
             >
               Book a Discovery Call
